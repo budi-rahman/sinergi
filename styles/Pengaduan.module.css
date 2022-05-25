@@ -1,0 +1,77 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.pict{
+    object-fit: contain;
+}
+
+.title{
+    display: flex;
+    width: 100%;
+    padding: 10px 30px;
+}
+
+.title2{
+    display: flex;
+}
+
+.text{
+    padding-left: 10px;
+    font-weight:600;
+    color: #749D00;
+}
+
+.createReport{
+    display: flex;
+    padding: 40px 50px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.report{
+    display: flex;
+    padding: 40px 50px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.submit{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.submit p{
+    margin: 0;
+    padding: 0;
+}
+
+.createButton{
+    background-color: #B9CC7E;
+    border: none;
+    padding: 10px 20px;
+    width: 60%;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.buttonContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100%;
+    padding: 50px;
+}
+
+.backButton{
+    border: none;
+    color: white;
+    background-color:#B9CC7E;
+    padding: 10px 30px;
+    border-radius: 5px ;
+}

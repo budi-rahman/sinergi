@@ -1,0 +1,79 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.pict{
+    object-fit: contain;
+}
+
+.title{
+    display: flex;
+    width: 100%;
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+
+.text{
+    padding-left: 10px;
+    font-size: medium;
+    font-weight:700;
+    color: #749D00;
+}
+
+.text2{
+    padding-left: 10px;
+    font-size: small;
+    font-weight:600;
+    color: #749D00;
+}
+
+.text3{
+    color: #749D00;
+    font-weight: 600;
+}
+
+.titleText{
+    margin-left: 10px;
+}
+
+.titleText p{
+    margin: 0;
+    padding: 0;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+
+}
+
+.text1{
+    font-weight: 500;
+    color: #749D00;
+    text-align: justify;
+}
+
+.text2{
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+
+.buttonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonBack{
+    width: 20%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #B9CC7E;
+    color: white;
+    margin: 20px;
+}

@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.pict{
+    object-fit: contain;
+}
+
+.title{
+    display: flex;
+    width: 100%;
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+
+.text{
+    padding-left: 10px;
+    font-size: medium;
+    font-weight:700;
+    color: #749D00;
+}
+
+.text2{
+    padding-left: 10px;
+    font-size: small;
+    font-weight:600;
+    color: #749D00;
+}
+
+.text3{
+    color: #749D00;
+    font-weight: 600;
+}
+
+.titleText{
+    margin-left: 10px;
+}
+
+.titleText p{
+    margin: 0;
+    padding: 0;
+}
+
+.cardContainer{
+    margin: 10px;
+}
+
+
+.buttonContainer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonBack{
+    border: none;
+    height: 30px;
+    width: 20%;
+    background-color:#749D00;
+    color: white;
+    border-radius: 5px
+}

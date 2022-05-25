@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    padding: 0 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.nomor{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.text{
+    font-weight: 500;
+    color: #749D00;
+}
+
+.buttonContainer{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    height: 30px;
+}
+
+.buttonStatus{
+    border: none;
+    width:90%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #B9CC7E;
+    color: white;
+    font-weight: 600;
+    font-size: smaller;
+}

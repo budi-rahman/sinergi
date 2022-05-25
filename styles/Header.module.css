@@ -1,0 +1,40 @@
+.container{
+    width: 100%;
+    background-color: #6FCF97;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subContainer{
+    margin: 10px;
+    display: flex;
+}
+
+.textContainer{
+    color: white;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textContainer h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.textContainer p{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    font-size: xx-large;
+}
+
+.text{
+    font-weight: normal;
+    color: yellow;
+}

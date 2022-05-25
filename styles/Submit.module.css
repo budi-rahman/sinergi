@@ -1,0 +1,96 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.pict{
+    object-fit: contain;
+}
+
+.title{
+    display: flex;
+    width: 100%;
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+
+.text{
+    padding-left: 10px;
+    font-size: medium;
+    font-weight:700;
+    color: #749D00;
+}
+
+.text2{
+    padding-left: 10px;
+    font-size: small;
+    font-weight:600;
+    color: #749D00;
+}
+
+.text3{
+    color: #749D00;
+    font-weight: 600;
+}
+
+.titleText{
+    margin-left: 10px;
+}
+
+.titleText p{
+    margin: 0;
+    padding: 0;
+}
+
+.identity{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.identityForm{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px;
+}
+
+.identityForm2{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px;
+    height: 300px;
+}
+
+.inputIdentity{
+    background-color: #F3FFE0;
+    border: none;
+    height: 30px;
+    width: 60%;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: large;
+    padding: 5px 10px;
+}
+
+.inputIdentityText{
+    background-color: #F3FFE0;
+    border: none;
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.submitButton{
+    margin: 10px 40px;;
+}
+
+.submit{
+    border: none;
+    padding: 10px 30px;
+    background-color: #B9CC7E ;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+}
