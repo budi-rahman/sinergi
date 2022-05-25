@@ -8,7 +8,7 @@ const Card = ({value}) => {
                 <p className={styles.text}>No. Pengaduan:</p>
             </div>
             <div className={styles.nomor}>
-                <p className={styles.text}>{value.no_pengaduan}</p>
+                <p className={styles.text}>0012/MU/25052022</p>
             </div>
             <div className={styles.buttonContainer}>
                 <Link href='/menu/konten_status'>
